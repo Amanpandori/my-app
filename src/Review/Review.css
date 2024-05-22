@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_container{
+    height: 50vh;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reviews{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.review{
+    height: 37vh;
+    width: 23vw;
+    margin-left: 112px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.image{
+    height: 12vh;
+    width: 12vw;
+    margin-left: 84px;
+}
+
+h6{
+    color: royalblue;
+}

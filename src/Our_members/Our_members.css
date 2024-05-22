@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.member_card{
+    height: 60vh;
+    width: 20vw;
+    margin: 9px;
+    box-shadow: 1px 1px 15px -5px aqua;
+    background-color: white;
+}
+
+.member_card img{
+    width: 23vw;
+    height: 45vh;
+}
+
+.box{
+    display: flex;
+    height: 195vh;
+    width: 79%;
+    margin-left: 163px;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    padding-top: 27px;
+  }
+  
+  h2{
+    color: royalblue;
+  }
+  
+  h2 span{
+    color: orange;
+  }
+  
+  h1{
+    font-family: Courier;
+  }
+  
+  .box1{
+    text-align: center;
+  }
+  
+  .main_box{
+    background-color: aliceblue;
+  }

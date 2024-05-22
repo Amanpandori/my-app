@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.training {
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.training_card {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.training_card1 {
+    height: 60vh;
+    width: 25vw;
+    background-color: rgb(230, 243, 255);
+}
+
+.training_card1 ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+    font-family: Courier;
+
+}
+
+.training_card1 ul li:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.training_card2 {
+    height: 60vh;
+    width: 25vw;
+    background-color: rgb(230, 243, 255);
+}
+
+.training_card2 ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+    font-family: Courier;
+
+}
+
+.training_card2 ul li:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.btn1 {
+    margin-top: 30px;
+}
+
+.btn2 {
+    margin-top: 30px;
+}
+
+.training_card1 h2 {
+    color: royalblue;
+    font-family: Courier;
+}
+
+.training_card2 h2 {
+    color: royalblue;
+    font-family: Courier;
+}
+
+.training h2 {
+    color: royalblue;
+}

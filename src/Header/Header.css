@@ -1,0 +1,116 @@
+header {
+    height: 80vh;
+    width: 100%;
+    background-image: url('./robot.jpg');
+    background-size: cover;
+  }
+  
+  nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main_logo {
+    height: 10vh;
+    width: 6vw;
+  
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    font-size: 15px;
+    margin-left: 0.5vw;
+    margin-right: 2vw;
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000;
+    cursor: pointer;
+  }
+  
+  .main_container1 {
+    height: 43vh;
+    width: 41vw;
+    margin: 112px 2px 2px 41px;
+    color: white;
+  }
+  
+  .main_container1 p {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .para1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 29px;
+  }
+  
+  .para {
+    font-size: 12px;
+  }
+  
+  .btn1 {
+    height: 5vh;
+    width: 9vw;
+    border-radius: 20px;
+    background-color: #0087cc;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 15px;
+    box-shadow: 1px 0px 6px 2px white;
+  }
+
+  .btn2 {
+    height: 5vh;
+    width: 9vw;
+    border-radius: 20px;
+    background-color: #0087cc;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 15px;
+    box-shadow: 1px 0px 6px 2px white;
+  }
+  
+  .main_students {
+    height: 13vh;
+    width: 57vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 35px 321px;
+    border-radius: 17px;
+    box-shadow: 0px 0px 14px 4px cadetblue;
+    padding: 4px;
+  }
+  
+  .main_students p{
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .total{
+    height: 13vh;
+    height: 6vh;
+    width: 7vw;
+    text-align: center;
+    font-weight: 700;
+  }
+  .experience{
+    height: 6vh;
+    width: 7vw;
+    text-align: center;
+    font-weight: 700;
+  }

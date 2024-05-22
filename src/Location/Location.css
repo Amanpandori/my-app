@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.our_location{
+    width: 100%;
+    height: 52vh;
+    text-align: center;
+}
+
+.address{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.location{
+    height: 40vh;
+    width: 30vw;
+    padding: 69px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+.map{
+    height: 40vh;
+    width: 30vw;
+}
+
+iframe{
+    height: 40vh;
+    width: 30vw;
+    border-radius: 25px;
+    border: 5px solid black;
+}
+
+.location p{
+    font-size: larger;
+}

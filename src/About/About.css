@@ -1,0 +1,30 @@
+main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+}
+.about{
+    height: 68vh;
+    width: 35vw;
+    margin: 55px 142px;
+}
+.pictures{
+    height: 65vh;
+    width: 35vw;
+    margin: 55px 142px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.about p{
+    font-size: 12px;
+    font-family: cursive;   
+}
+.about span{
+    color: royalblue;
+}
+
+.about h2{
+    color: royalblue;
+}
