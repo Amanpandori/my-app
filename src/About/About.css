@@ -17,6 +17,14 @@ main{
     border-radius: 20px;
 }
 
+.slick-track{
+    height: 65vh;
+    width: 35vw;
+    margin: 55px 142px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
 .about p{
     font-size: 12px;
     font-family: cursive;   

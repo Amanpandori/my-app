@@ -1,0 +1,158 @@
+.main_contact{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_us2{
+    height: 85vh;
+    width: 80vh;
+    background-image: url('https://thumbs.dreamstime.com/b/technical-support-center-customer-service-business-concept-154147567.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.contact_us2 svg{
+    height: 10vh;
+    width: 10vw;
+    color: white;
+}
+
+.contact_us2 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+.info2{
+    font-size: 30px;
+    font-weight: 900;
+    color: aqua;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.phone{
+    height: 7vh;
+    margin-top: 10px;
+    width: 37vw;
+}
+
+.phone svg{
+    height: 2vh;
+    width: 2vw;
+}
+.contact_form{
+    height: 85vh;
+    width: 80vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url('https://redmooncommunications.com/wp-content/uploads/2024/03/Technical-Skills_How-to-Them-Master-in-2022.jpg.optimal.jpg');
+    background-size: cover;
+    z-index: -1;
+    filter: blur(4px);
+}
+
+form{
+    height: 64vh;
+    width: 56vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px 3px aqua;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 230px;
+}
+
+form h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: aqua;
+    text-decoration: underline;
+    margin-top: -70px;
+}
+.icon{
+    height: 6vh;
+    width: 3vw;
+    display: inline-flex;
+    border-radius: 50%;
+    margin: 20px 0px 0px 10px;
+}
+
+.whatsapp{
+    height: 48px;
+    width: 48px;
+    display: inline-flex;
+    background: #25d366;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+
+.whatsapp svg{
+    height: 48px;
+    width: 32px;
+    margin-left: 7px;
+    text-align: center;
+    align-items: center;
+}
+.contact_us h2{
+    color: white;
+}
+
+.icon svg{
+    height: 6vh;
+    width: 2vw;
+    margin-left: 7px;
+    color: white;
+}
+
+
+.icon1 {
+    background-color: #1828b8;
+
+}
+.icon2 {
+    background-color: rgb(0 181 255);
+}
+.icon3 {
+    background-color: rgb(233 53 53);
+    
+}
+.icon4 {
+    background-color: rgb(0 87 255);
+
+}
+.icon5 {
+    background-color: #b3252e;
+}
+input{
+    height: 5vh;
+    width: 23vw;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+textarea{
+    height: 8vh;
+    width: 23vw;
+    margin-top: 20px;
+}
+
+dropdown{
+    height: 5vh;
+    width: 23vw;
+    margin-top: 20px;
+}
+
+.submit_btn{
+    background-color: royalblue;
+    color: white;
+}

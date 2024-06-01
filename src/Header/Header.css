@@ -60,7 +60,7 @@ header {
   .btn1 {
     height: 5vh;
     width: 9vw;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #0087cc;
     color: white;
     font-size: 15px;
@@ -72,7 +72,7 @@ header {
   .btn2 {
     height: 5vh;
     width: 9vw;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #0087cc;
     color: white;
     font-size: 15px;
@@ -114,3 +114,5 @@ header {
     text-align: center;
     font-weight: 700;
   }
+
+ 

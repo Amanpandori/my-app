@@ -1,6 +1,15 @@
-import "./About.css";
+import "./About.css";import
+ React from "react";
+import SimpleSlider from "./SimpleSlider";
 
 function About(){
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
     return(
         <main>
             <div className='about'>
@@ -10,7 +19,7 @@ function About(){
                 <p>Through our experience we understand child learning nature, every child has their own unique learning interest we should not force them to learn anything against their wish but yes we are telling them every possibility where they can improve themselves, what things they should follow to earn good salary packages, all this we tell them during the free demo session. we have also designed basic computer courses that will help them to get jobs in any sector because we know today the Indian government changing India completely digitally. Like the education sector changes digitally, business, payment everything. so we provide training in Microsoft Word and Excel courses, fast computer typing courses with certifications, etc.  To know more kindly visit our technical institute in Chandigarh or you can call us.</p>
             </div>
             <div className='pictures'>
-
+            <SimpleSlider/>
             </div>
         </main>
     

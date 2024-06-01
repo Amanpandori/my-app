@@ -1,5 +1,6 @@
 import "./Header.css"
 import main_logo from '../pgtech.jpeg';
+import { motion } from "framer-motion";
 function Header(){
     return(
         <header>

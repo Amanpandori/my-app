@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+.main_container h2{
+    color: royalblue;
+}
+
 .reviews{
     height: 45vh;
     width: 100%;
