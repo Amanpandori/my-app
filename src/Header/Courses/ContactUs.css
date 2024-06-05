@@ -12,7 +12,7 @@
     background-image: url('https://thumbs.dreamstime.com/b/technical-support-center-customer-service-business-concept-154147567.jpg');
     background-size: cover;
     text-align: center;
-    padding: 20px;
+    padding: 56px;
 
 }
 
@@ -38,7 +38,7 @@
 .phone{
     height: 7vh;
     margin-top: 10px;
-    width: 37vw;
+    width: 31vw;
 }
 
 .phone svg{

@@ -1,14 +1,14 @@
 import React from 'react'
 import Data from './Data.js';
-import Our_members from './Our_members.js';
-// import Image from './Image.js'
+// import Our_members from './Our_members.js';
+import Image from './Image.js'
 function Body() {
   return (
     <div>
          <div className="container">
-        {Data.map((value, index) => {
+        {Data.map((value) => {
           return (
-            <Our_members
+            <Image
               name={value.name}
               img={value.img}
             />

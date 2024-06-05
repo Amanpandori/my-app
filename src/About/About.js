@@ -3,13 +3,6 @@ import "./About.css";import
 import SimpleSlider from "./SimpleSlider";
 
 function About(){
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
     return(
         <main>
             <div className='about'>

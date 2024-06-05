@@ -1,20 +1,12 @@
 import "./Header.css"
-import main_logo from '../pgtech.jpeg';
-import { motion } from "framer-motion";
+import Navbar from "./Navbar";
+
+// import { motion } from "framer-motion";
 function Header(){
     return(
+      
         <header>
-        <nav>
-      <div className="main_logo" >
-        <img src = {main_logo} className='main_logo'></img>
-      </div>
-      <ul>
-        <li><a herf='#'>Home</a></li>
-        <li><a herf='#'>Courses</a></li>
-        <li><a herf='#'>Contact Us</a></li>
-        <li><a herf='#'>Company</a></li>
-      </ul>      
-    </nav>
+        <Navbar/>
     <div className='main_container1'>
         <p>Training, Development and Placement</p>
         <h1 className="para1">We Illuminate Your Path To Success In The World Of Technology</h1>
